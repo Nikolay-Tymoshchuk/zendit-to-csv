@@ -1,0 +1,52 @@
+2025-06-11 19:24:52 info: Starting Zendit offers fetch
+2025-06-11 19:24:52 info: Will execute requests until all offers are fetched (dynamic mode)
+2025-06-11 19:24:52 info: Executing request #1 (offset: 0, limit: 1024)
+2025-06-11 19:24:55 info: ✅ Request 1 successful - 1024 offers found - Data saved to /Volumes/AVODA/devit/mern/urecharge/offers/scripts/dataJson/offers1.json
+2025-06-11 19:24:56 info: Executing request #2 (offset: 1024, limit: 1024)
+2025-06-11 19:24:56 info: ✅ Request 2 successful - 1024 offers found - Data saved to /Volumes/AVODA/devit/mern/urecharge/offers/scripts/dataJson/offers2.json
+2025-06-11 19:24:57 info: Executing request #3 (offset: 2048, limit: 1024)
+2025-06-11 19:24:58 info: ✅ Request 3 successful - 1024 offers found - Data saved to /Volumes/AVODA/devit/mern/urecharge/offers/scripts/dataJson/offers3.json
+2025-06-11 19:24:59 info: Executing request #4 (offset: 3072, limit: 1024)
+2025-06-11 19:25:01 info: ✅ Request 4 successful - 1024 offers found - Data saved to /Volumes/AVODA/devit/mern/urecharge/offers/scripts/dataJson/offers4.json
+2025-06-11 19:25:02 info: Executing request #5 (offset: 4096, limit: 1024)
+2025-06-11 19:25:03 info: ✅ Request 5 successful - 1024 offers found - Data saved to /Volumes/AVODA/devit/mern/urecharge/offers/scripts/dataJson/offers5.json
+2025-06-11 19:25:04 info: Executing request #6 (offset: 5120, limit: 1024)
+2025-06-11 19:25:05 info: ✅ Request 6 successful - 1024 offers found - Data saved to /Volumes/AVODA/devit/mern/urecharge/offers/scripts/dataJson/offers6.json
+2025-06-11 19:25:06 info: Executing request #7 (offset: 6144, limit: 1024)
+2025-06-11 19:25:07 info: ✅ Request 7 successful - 1024 offers found - Data saved to /Volumes/AVODA/devit/mern/urecharge/offers/scripts/dataJson/offers7.json
+2025-06-11 19:25:08 info: Executing request #8 (offset: 7168, limit: 1024)
+2025-06-11 19:25:09 info: ✅ Request 8 successful - 1024 offers found - Data saved to /Volumes/AVODA/devit/mern/urecharge/offers/scripts/dataJson/offers8.json
+2025-06-11 19:25:10 info: Executing request #9 (offset: 8192, limit: 1024)
+2025-06-11 19:25:11 info: ✅ Request 9 successful - 1024 offers found - Data saved to /Volumes/AVODA/devit/mern/urecharge/offers/scripts/dataJson/offers9.json
+2025-06-11 19:25:12 info: Executing request #10 (offset: 9216, limit: 1024)
+2025-06-11 19:25:12 info: ✅ Request 10 successful - 1024 offers found - Data saved to /Volumes/AVODA/devit/mern/urecharge/offers/scripts/dataJson/offers10.json
+2025-06-11 19:25:13 info: Executing request #11 (offset: 10240, limit: 1024)
+2025-06-11 19:25:14 info: ✅ Request 11 successful - 1024 offers found - Data saved to /Volumes/AVODA/devit/mern/urecharge/offers/scripts/dataJson/offers11.json
+2025-06-11 19:25:15 info: Executing request #12 (offset: 11264, limit: 1024)
+2025-06-11 19:25:16 info: ✅ Request 12 successful - 1024 offers found - Data saved to /Volumes/AVODA/devit/mern/urecharge/offers/scripts/dataJson/offers12.json
+2025-06-11 19:25:17 info: Executing request #13 (offset: 12288, limit: 1024)
+2025-06-11 19:25:18 info: ✅ Request 13 successful - 1024 offers found - Data saved to /Volumes/AVODA/devit/mern/urecharge/offers/scripts/dataJson/offers13.json
+2025-06-11 19:25:19 info: Executing request #14 (offset: 13312, limit: 1024)
+2025-06-11 19:25:20 info: ✅ Request 14 successful - 1024 offers found - Data saved to /Volumes/AVODA/devit/mern/urecharge/offers/scripts/dataJson/offers14.json
+2025-06-11 19:25:21 info: Executing request #15 (offset: 14336, limit: 1024)
+2025-06-11 19:25:22 info: ✅ Request 15 successful - 1024 offers found - Data saved to /Volumes/AVODA/devit/mern/urecharge/offers/scripts/dataJson/offers15.json
+2025-06-11 19:25:23 info: Executing request #16 (offset: 15360, limit: 1024)
+2025-06-11 19:25:24 info: ✅ Request 16 successful - 1024 offers found - Data saved to /Volumes/AVODA/devit/mern/urecharge/offers/scripts/dataJson/offers16.json
+2025-06-11 19:25:25 info: Executing request #17 (offset: 16384, limit: 1024)
+2025-06-11 19:25:26 info: ✅ Request 17 successful - 1024 offers found - Data saved to /Volumes/AVODA/devit/mern/urecharge/offers/scripts/dataJson/offers17.json
+2025-06-11 19:25:27 info: Executing request #18 (offset: 17408, limit: 1024)
+2025-06-11 19:25:28 info: ✅ Request 18 successful - 1024 offers found - Data saved to /Volumes/AVODA/devit/mern/urecharge/offers/scripts/dataJson/offers18.json
+2025-06-11 19:25:29 info: Executing request #19 (offset: 18432, limit: 1024)
+2025-06-11 19:25:29 info: ✅ Request 19 successful - 1024 offers found - Data saved to /Volumes/AVODA/devit/mern/urecharge/offers/scripts/dataJson/offers19.json
+2025-06-11 19:25:30 info: Executing request #20 (offset: 19456, limit: 1024)
+2025-06-11 19:25:31 info: ✅ Request 20 successful - 1024 offers found - Data saved to /Volumes/AVODA/devit/mern/urecharge/offers/scripts/dataJson/offers20.json
+2025-06-11 19:25:32 info: Executing request #21 (offset: 20480, limit: 1024)
+2025-06-11 19:25:33 info: ✅ Request 21 successful - 907 offers found - Data saved to /Volumes/AVODA/devit/mern/urecharge/offers/scripts/dataJson/offers21.json
+2025-06-11 19:25:33 info: Received 907 offers which is less than LIMIT (1024) - All offers fetched!
+2025-06-11 19:25:34 info: -------------------------------------
+📊 Summary:
+Total requests executed: 21
+Successful requests: 21
+Failed requests: 0
+Time taken: 42.167 seconds
+-------------------------------------

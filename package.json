@@ -1,0 +1,22 @@
+{
+  "name": "offers",
+  "version": "1.0.0",
+  "description": "Get all offers form zendit and transform to csv for the import",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "get-offers": "node ./scripts/get-all-zendit-offers.js && node ./scripts/json-to-csv.js",
+    "transform-only": "node ./scripts/json-to-csv.js",
+    "transform-csv": "node ./scripts/csv-to-csv.js"
+  },
+  "author": "Mykola Tymoshchuk",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "csv-parse": "^5.6.0",
+    "csv-stringify": "^6.5.2",
+    "dotenv": "^16.5.0",
+    "fs": "^0.0.1-security",
+    "winston": "^3.17.0"
+  }
+}
