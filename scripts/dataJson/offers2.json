@@ -1,7 +1,7 @@
 {
   "data": {
     "offers": {
-      "total": 21387,
+      "total": 21385,
       "list": [
         {
           "offerId": "LOWES_AU_300",
@@ -5201,7 +5201,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 1802,
+            "fixed": 1800,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -5283,7 +5283,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 1982,
+            "fixed": 1980,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -5365,7 +5365,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 2163,
+            "fixed": 2160,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -5447,7 +5447,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 2343,
+            "fixed": 2340,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -5529,7 +5529,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 2524,
+            "fixed": 2520,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -5611,7 +5611,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 2704,
+            "fixed": 2700,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -5693,7 +5693,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 2884,
+            "fixed": 2880,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -5775,7 +5775,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 3064,
+            "fixed": 3060,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -5857,7 +5857,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 3245,
+            "fixed": 3240,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -5939,7 +5939,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 3425,
+            "fixed": 3420,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -6021,7 +6021,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 361,
+            "fixed": 360,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -6103,7 +6103,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 3604,
+            "fixed": 3600,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -6185,7 +6185,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 3785,
+            "fixed": 3779,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -6267,7 +6267,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 3965,
+            "fixed": 3960,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -6349,7 +6349,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 4146,
+            "fixed": 4140,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -6431,7 +6431,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 4326,
+            "fixed": 4320,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -6513,7 +6513,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 4506,
+            "fixed": 4500,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -6595,7 +6595,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 4687,
+            "fixed": 4680,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -6677,7 +6677,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 4867,
+            "fixed": 4860,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -6759,7 +6759,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 5047,
+            "fixed": 5040,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -6841,7 +6841,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 5227,
+            "fixed": 5220,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -6923,7 +6923,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 541,
+            "fixed": 540,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -7005,7 +7005,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 5408,
+            "fixed": 5400,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -7087,7 +7087,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 5588,
+            "fixed": 5580,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -7169,7 +7169,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 5768,
+            "fixed": 5760,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -7251,7 +7251,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 5948,
+            "fixed": 5940,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -7333,7 +7333,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 6129,
+            "fixed": 6120,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -7415,7 +7415,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 6309,
+            "fixed": 6300,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -7497,7 +7497,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 6489,
+            "fixed": 6480,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -7579,7 +7579,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 6669,
+            "fixed": 6659,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -7661,7 +7661,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 6850,
+            "fixed": 6840,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -7743,7 +7743,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 7030,
+            "fixed": 7020,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -7825,7 +7825,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 721,
+            "fixed": 720,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -7907,7 +7907,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 7209,
+            "fixed": 7200,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -7989,7 +7989,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 7390,
+            "fixed": 7380,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -8071,7 +8071,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 7570,
+            "fixed": 7559,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -8153,7 +8153,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 7751,
+            "fixed": 7740,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -8235,7 +8235,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 7931,
+            "fixed": 7920,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -8317,7 +8317,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 8111,
+            "fixed": 8100,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -8399,7 +8399,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 8292,
+            "fixed": 8280,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -8481,7 +8481,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 8472,
+            "fixed": 8460,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -8563,7 +8563,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 8652,
+            "fixed": 8640,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -8645,7 +8645,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 8832,
+            "fixed": 8820,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -8727,7 +8727,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 901,
+            "fixed": 900,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -8809,7 +8809,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 9013,
+            "fixed": 9000,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -8891,7 +8891,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 9193,
+            "fixed": 9180,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -8973,7 +8973,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 9373,
+            "fixed": 9360,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -9055,7 +9055,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 9553,
+            "fixed": 9540,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -9137,7 +9137,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 9734,
+            "fixed": 9720,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -9219,7 +9219,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 9914,
+            "fixed": 9900,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -9301,7 +9301,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 10094,
+            "fixed": 10080,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -9383,7 +9383,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 10274,
+            "fixed": 10260,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -9465,7 +9465,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 10455,
+            "fixed": 10440,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -9547,7 +9547,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 10635,
+            "fixed": 10620,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -9629,7 +9629,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 1082,
+            "fixed": 1080,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -9711,7 +9711,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 10815,
+            "fixed": 10800,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -9793,7 +9793,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 10995,
+            "fixed": 10980,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -9875,7 +9875,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 11176,
+            "fixed": 11160,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -9957,7 +9957,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 11356,
+            "fixed": 11340,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -10039,7 +10039,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 11536,
+            "fixed": 11520,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -10121,7 +10121,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 11716,
+            "fixed": 11700,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -10203,7 +10203,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 11897,
+            "fixed": 11880,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -10285,7 +10285,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 12077,
+            "fixed": 12060,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -10367,7 +10367,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 12257,
+            "fixed": 12240,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -10449,7 +10449,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 12437,
+            "fixed": 12420,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -10531,7 +10531,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 1262,
+            "fixed": 1260,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -10613,7 +10613,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 12618,
+            "fixed": 12600,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -10695,7 +10695,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 1442,
+            "fixed": 1440,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -10777,7 +10777,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 1622,
+            "fixed": 1620,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -18464,7 +18464,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 2018,
+            "fixed": 2005,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -18546,7 +18546,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 20180,
+            "fixed": 20048,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -18628,7 +18628,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 2220,
+            "fixed": 2205,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -18710,7 +18710,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 2422,
+            "fixed": 2406,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -18792,7 +18792,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 2623,
+            "fixed": 2606,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -18874,7 +18874,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 2825,
+            "fixed": 2807,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -18956,7 +18956,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 3027,
+            "fixed": 3007,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -19038,7 +19038,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 3229,
+            "fixed": 3208,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -19120,7 +19120,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 3431,
+            "fixed": 3408,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -19202,7 +19202,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 3632,
+            "fixed": 3609,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -19284,7 +19284,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 3834,
+            "fixed": 3809,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -19366,7 +19366,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 4036,
+            "fixed": 4010,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -19448,7 +19448,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 4238,
+            "fixed": 4210,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -19530,7 +19530,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 4440,
+            "fixed": 4411,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -19612,7 +19612,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 4641,
+            "fixed": 4611,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -19694,7 +19694,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 4843,
+            "fixed": 4811,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -19776,7 +19776,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 5045,
+            "fixed": 5012,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -19858,7 +19858,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 5247,
+            "fixed": 5212,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -19940,7 +19940,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 5449,
+            "fixed": 5413,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -20022,7 +20022,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 5650,
+            "fixed": 5613,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -20104,7 +20104,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 5852,
+            "fixed": 5814,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -20186,7 +20186,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 6054,
+            "fixed": 6014,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -20268,7 +20268,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 6256,
+            "fixed": 6215,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -20350,7 +20350,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 6458,
+            "fixed": 6415,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -20432,7 +20432,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 6659,
+            "fixed": 6616,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -20514,7 +20514,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 6861,
+            "fixed": 6816,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -20596,7 +20596,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 7063,
+            "fixed": 7017,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -20678,7 +20678,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 7265,
+            "fixed": 7217,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -20760,7 +20760,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 7467,
+            "fixed": 7418,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -20842,7 +20842,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 7668,
+            "fixed": 7618,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -20924,7 +20924,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 7870,
+            "fixed": 7819,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -21006,7 +21006,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 8072,
+            "fixed": 8019,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -21088,7 +21088,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 8274,
+            "fixed": 8220,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -21170,7 +21170,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 8476,
+            "fixed": 8420,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -21252,7 +21252,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 8677,
+            "fixed": 8621,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -21334,7 +21334,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 8879,
+            "fixed": 8821,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -21416,7 +21416,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 9081,
+            "fixed": 9022,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -21498,7 +21498,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 9283,
+            "fixed": 9222,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -21580,7 +21580,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 9485,
+            "fixed": 9422,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -21662,7 +21662,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 9686,
+            "fixed": 9623,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -21744,7 +21744,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 9888,
+            "fixed": 9823,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -21826,7 +21826,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 10090,
+            "fixed": 10024,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -21908,7 +21908,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 10292,
+            "fixed": 10224,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -21990,7 +21990,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 10493,
+            "fixed": 10425,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -22072,7 +22072,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 10695,
+            "fixed": 10625,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -22154,7 +22154,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 10897,
+            "fixed": 10826,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -22236,7 +22236,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 11099,
+            "fixed": 11026,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -22318,7 +22318,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 11301,
+            "fixed": 11227,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -22400,7 +22400,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 11502,
+            "fixed": 11427,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -22482,7 +22482,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 11704,
+            "fixed": 11628,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -22564,7 +22564,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 11906,
+            "fixed": 11828,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -22646,7 +22646,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 12108,
+            "fixed": 12029,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -22728,7 +22728,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 12310,
+            "fixed": 12229,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -22810,7 +22810,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 12511,
+            "fixed": 12430,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -22892,7 +22892,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 12713,
+            "fixed": 12630,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -22974,7 +22974,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 12915,
+            "fixed": 12831,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -23056,7 +23056,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 13116,
+            "fixed": 13031,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -23138,7 +23138,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 13319,
+            "fixed": 13232,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -23220,7 +23220,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 13519,
+            "fixed": 13432,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -23302,7 +23302,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 13722,
+            "fixed": 13633,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -23384,7 +23384,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 13924,
+            "fixed": 13833,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -23466,7 +23466,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 1413,
+            "fixed": 1403,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -23548,7 +23548,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 14126,
+            "fixed": 14033,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -23630,7 +23630,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 14328,
+            "fixed": 14234,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -23712,7 +23712,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 14529,
+            "fixed": 14434,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -23794,7 +23794,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 14731,
+            "fixed": 14635,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -23876,7 +23876,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 14933,
+            "fixed": 14835,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -23958,7 +23958,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 15135,
+            "fixed": 15036,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -24040,7 +24040,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 15337,
+            "fixed": 15236,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -24122,7 +24122,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 15538,
+            "fixed": 15437,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -24204,7 +24204,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 15740,
+            "fixed": 15637,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -24286,7 +24286,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 15941,
+            "fixed": 15838,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -24368,7 +24368,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 1614,
+            "fixed": 1604,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -24450,7 +24450,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 16144,
+            "fixed": 16038,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -24532,7 +24532,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 16346,
+            "fixed": 16238,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -24614,7 +24614,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 16547,
+            "fixed": 16439,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -24696,7 +24696,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 16749,
+            "fixed": 16640,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -24778,7 +24778,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 16951,
+            "fixed": 16840,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -24860,7 +24860,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 17153,
+            "fixed": 17041,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -24942,7 +24942,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 17355,
+            "fixed": 17241,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -25024,7 +25024,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 17556,
+            "fixed": 17442,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -25106,7 +25106,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 17758,
+            "fixed": 17642,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -25188,7 +25188,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 17960,
+            "fixed": 17843,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -25270,7 +25270,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 1816,
+            "fixed": 1804,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -25352,7 +25352,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 18162,
+            "fixed": 18043,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -25434,7 +25434,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 18364,
+            "fixed": 18244,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -25516,7 +25516,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 18565,
+            "fixed": 18444,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -25598,7 +25598,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 18767,
+            "fixed": 18644,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -25680,7 +25680,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 18969,
+            "fixed": 18845,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -25762,7 +25762,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 19171,
+            "fixed": 19045,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -25844,7 +25844,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 19373,
+            "fixed": 19246,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -25926,7 +25926,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 19574,
+            "fixed": 19446,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -26008,7 +26008,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 19776,
+            "fixed": 19647,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -26090,7 +26090,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 19978,
+            "fixed": 19847,
             "max": null,
             "min": null,
             "__typename": "Zend"

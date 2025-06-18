@@ -1,150 +1,8 @@
 {
   "data": {
     "offers": {
-      "total": 21387,
+      "total": 21385,
       "list": [
-        {
-          "offerId": "FAMOUSFOOTWEAR_US_003_EGIFT",
-          "priceType": "fixed",
-          "type": "voucher",
-          "enabled": true,
-          "details": {
-            "__typename": "VoucherOfferDetails",
-            "requiredFields": [
-              "recipient.firstName",
-              "recipient.lastName"
-            ],
-            "deliveryType": "redemptionURL"
-          },
-          "brand": {
-            "name": "Famous Footwear",
-            "__typename": "Brand"
-          },
-          "country": {
-            "name": "United States",
-            "__typename": "Country"
-          },
-          "regions": [
-            "North America"
-          ],
-          "notes": "",
-          "subTypes": [
-            "Clothing & Accessories"
-          ],
-          "notesShort": "",
-          "cost": {
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 7313,
-            "fx": null,
-            "max": null,
-            "min": null,
-            "__typename": "Cost"
-          },
-          "price": {
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 7500,
-            "fx": null,
-            "margin": 0.0249,
-            "max": null,
-            "min": null,
-            "overrideType": "notApplied",
-            "suggestedFixed": 7500,
-            "suggestedFx": null,
-            "__typename": "Price"
-          },
-          "zend": {
-            "fx": null,
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 7500,
-            "max": null,
-            "min": null,
-            "__typename": "Zend"
-          },
-          "__typename": "Offer"
-        },
-        {
-          "offerId": "FAMOUSFOOTWEAR_US_004_EGIFT",
-          "priceType": "fixed",
-          "type": "voucher",
-          "enabled": true,
-          "details": {
-            "__typename": "VoucherOfferDetails",
-            "requiredFields": [
-              "recipient.firstName",
-              "recipient.lastName"
-            ],
-            "deliveryType": "redemptionURL"
-          },
-          "brand": {
-            "name": "Famous Footwear",
-            "__typename": "Brand"
-          },
-          "country": {
-            "name": "United States",
-            "__typename": "Country"
-          },
-          "regions": [
-            "North America"
-          ],
-          "notes": "",
-          "subTypes": [
-            "Clothing & Accessories"
-          ],
-          "notesShort": "",
-          "cost": {
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 9750,
-            "fx": null,
-            "max": null,
-            "min": null,
-            "__typename": "Cost"
-          },
-          "price": {
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 10000,
-            "fx": null,
-            "margin": 0.025,
-            "max": null,
-            "min": null,
-            "overrideType": "notApplied",
-            "suggestedFixed": 10000,
-            "suggestedFx": null,
-            "__typename": "Price"
-          },
-          "zend": {
-            "fx": null,
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 10000,
-            "max": null,
-            "min": null,
-            "__typename": "Zend"
-          },
-          "__typename": "Offer"
-        },
         {
           "offerId": "FAMOUSFOOTWEAR_US_100_EGIFT",
           "priceType": "fixed",
@@ -74881,6 +74739,148 @@
             "fixed": 5000,
             "fx": null,
             "margin": 0.04,
+            "max": null,
+            "min": null,
+            "overrideType": "notApplied",
+            "suggestedFixed": 5000,
+            "suggestedFx": null,
+            "__typename": "Price"
+          },
+          "zend": {
+            "fx": null,
+            "currency": {
+              "code": "USD",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 5000,
+            "max": null,
+            "min": null,
+            "__typename": "Zend"
+          },
+          "__typename": "Offer"
+        },
+        {
+          "offerId": "RUBYTUESDAY_US_001",
+          "priceType": "fixed",
+          "type": "voucher",
+          "enabled": true,
+          "details": {
+            "__typename": "VoucherOfferDetails",
+            "requiredFields": [
+              "recipient.firstName",
+              "recipient.lastName"
+            ],
+            "deliveryType": "redemptionURL"
+          },
+          "brand": {
+            "name": "Ruby Tuesday",
+            "__typename": "Brand"
+          },
+          "country": {
+            "name": "United States",
+            "__typename": "Country"
+          },
+          "regions": [
+            "North America"
+          ],
+          "notes": "",
+          "subTypes": [
+            "Restaurant"
+          ],
+          "notesShort": "",
+          "cost": {
+            "currency": {
+              "code": "USD",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 2438,
+            "fx": null,
+            "max": null,
+            "min": null,
+            "__typename": "Cost"
+          },
+          "price": {
+            "currency": {
+              "code": "USD",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 2500,
+            "fx": null,
+            "margin": 0.0248,
+            "max": null,
+            "min": null,
+            "overrideType": "notApplied",
+            "suggestedFixed": 2500,
+            "suggestedFx": null,
+            "__typename": "Price"
+          },
+          "zend": {
+            "fx": null,
+            "currency": {
+              "code": "USD",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 2500,
+            "max": null,
+            "min": null,
+            "__typename": "Zend"
+          },
+          "__typename": "Offer"
+        },
+        {
+          "offerId": "RUBYTUESDAY_US_002",
+          "priceType": "fixed",
+          "type": "voucher",
+          "enabled": true,
+          "details": {
+            "__typename": "VoucherOfferDetails",
+            "requiredFields": [
+              "recipient.firstName",
+              "recipient.lastName"
+            ],
+            "deliveryType": "redemptionURL"
+          },
+          "brand": {
+            "name": "Ruby Tuesday",
+            "__typename": "Brand"
+          },
+          "country": {
+            "name": "United States",
+            "__typename": "Country"
+          },
+          "regions": [
+            "North America"
+          ],
+          "notes": "",
+          "subTypes": [
+            "Restaurant"
+          ],
+          "notesShort": "",
+          "cost": {
+            "currency": {
+              "code": "USD",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 4875,
+            "fx": null,
+            "max": null,
+            "min": null,
+            "__typename": "Cost"
+          },
+          "price": {
+            "currency": {
+              "code": "USD",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 5000,
+            "fx": null,
+            "margin": 0.025,
             "max": null,
             "min": null,
             "overrideType": "notApplied",

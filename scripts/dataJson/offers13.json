@@ -1,172 +1,8 @@
 {
   "data": {
     "offers": {
-      "total": 21387,
+      "total": 21385,
       "list": [
-        {
-          "offerId": "BIENESTAR_MX_001_BUNDLE",
-          "priceType": "fixed",
-          "type": "topup",
-          "enabled": true,
-          "details": {
-            "__typename": "TopupOfferDetails",
-            "durationDays": 7,
-            "data": {
-              "gb": 3,
-              "type": "limited",
-              "__typename": "PlanFeatureData"
-            },
-            "sms": {
-              "number": 0,
-              "type": "unlimited",
-              "__typename": "PlanFeatureSms"
-            },
-            "voice": {
-              "minutes": 0,
-              "type": "unlimited",
-              "__typename": "PlanFeatureVoice"
-            }
-          },
-          "brand": {
-            "name": "Bienestar",
-            "__typename": "Brand"
-          },
-          "country": {
-            "name": "Mexico",
-            "__typename": "Country"
-          },
-          "regions": [
-            "Central America"
-          ],
-          "notes": "Data 3 GB, Unlimited Minutes, Unlimited SMS, 7 Days",
-          "subTypes": [
-            "Mobile Bundle"
-          ],
-          "notesShort": "3GB bundle, 7 days",
-          "cost": {
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 261,
-            "fx": null,
-            "max": null,
-            "min": null,
-            "__typename": "Cost"
-          },
-          "price": {
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 300,
-            "fx": null,
-            "margin": 0.13,
-            "max": null,
-            "min": null,
-            "overrideType": "notApplied",
-            "suggestedFixed": 300,
-            "suggestedFx": null,
-            "__typename": "Price"
-          },
-          "zend": {
-            "fx": null,
-            "currency": {
-              "code": "MXN",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 5000,
-            "max": null,
-            "min": null,
-            "__typename": "Zend"
-          },
-          "__typename": "Offer"
-        },
-        {
-          "offerId": "BIENESTAR_MX_004_BUNDLE",
-          "priceType": "fixed",
-          "type": "topup",
-          "enabled": true,
-          "details": {
-            "__typename": "TopupOfferDetails",
-            "durationDays": 15,
-            "data": {
-              "gb": 6,
-              "type": "limited",
-              "__typename": "PlanFeatureData"
-            },
-            "sms": {
-              "number": 0,
-              "type": "unlimited",
-              "__typename": "PlanFeatureSms"
-            },
-            "voice": {
-              "minutes": 0,
-              "type": "unlimited",
-              "__typename": "PlanFeatureVoice"
-            }
-          },
-          "brand": {
-            "name": "Bienestar",
-            "__typename": "Brand"
-          },
-          "country": {
-            "name": "Mexico",
-            "__typename": "Country"
-          },
-          "regions": [
-            "Central America"
-          ],
-          "notes": "Data 6 GB, Unlimited Minutes, Unlimited SMS, 15 Days",
-          "subTypes": [
-            "Mobile Bundle"
-          ],
-          "notesShort": "6GB bundle, 15 days",
-          "cost": {
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 523,
-            "fx": null,
-            "max": null,
-            "min": null,
-            "__typename": "Cost"
-          },
-          "price": {
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 600,
-            "fx": null,
-            "margin": 0.1283,
-            "max": null,
-            "min": null,
-            "overrideType": "notApplied",
-            "suggestedFixed": 600,
-            "suggestedFx": null,
-            "__typename": "Price"
-          },
-          "zend": {
-            "fx": null,
-            "currency": {
-              "code": "MXN",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 10000,
-            "max": null,
-            "min": null,
-            "__typename": "Zend"
-          },
-          "__typename": "Offer"
-        },
         {
           "offerId": "BIENESTAR_MX_006_BUNDLE",
           "priceType": "fixed",
@@ -3884,7 +3720,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 20965,
+            "fixed": 20808,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -4425,7 +4261,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 41929,
+            "fixed": 41615,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -4578,7 +4414,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 57176,
+            "fixed": 56748,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -4895,7 +4731,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 11435,
+            "fixed": 11350,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -5119,7 +4955,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 15247,
+            "fixed": 15133,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -5201,7 +5037,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 17153,
+            "fixed": 17024,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -5277,15 +5113,15 @@
             "__typename": "Price"
           },
           "zend": {
-            "fx": 19.05868,
+            "fx": 18.91598,
             "currency": {
               "code": "MXN",
               "denomination": 100,
               "__typename": "Currency"
             },
             "fixed": null,
-            "max": 95312,
-            "min": 11435,
+            "max": 94598,
+            "min": 11349,
             "__typename": "Zend"
           },
           "__typename": "Offer"
@@ -8301,7 +8137,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 19059,
+            "fixed": 18916,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -8383,7 +8219,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 28588,
+            "fixed": 28374,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -8465,7 +8301,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 38117,
+            "fixed": 37832,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -8547,7 +8383,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 57176,
+            "fixed": 56748,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -8629,7 +8465,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 95293,
+            "fixed": 94580,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -8711,7 +8547,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 9529,
+            "fixed": 9458,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -80855,6 +80691,170 @@
               "__typename": "Currency"
             },
             "fixed": 68500,
+            "max": null,
+            "min": null,
+            "__typename": "Zend"
+          },
+          "__typename": "Offer"
+        },
+        {
+          "offerId": "CLARO_NI_OPEN_0021",
+          "priceType": "fixed",
+          "type": "topup",
+          "enabled": true,
+          "details": {
+            "__typename": "TopupOfferDetails",
+            "durationDays": 0,
+            "data": {
+              "gb": 0,
+              "type": "limited",
+              "__typename": "PlanFeatureData"
+            },
+            "sms": {
+              "number": 0,
+              "type": "limited",
+              "__typename": "PlanFeatureSms"
+            },
+            "voice": {
+              "minutes": 0,
+              "type": "limited",
+              "__typename": "PlanFeatureVoice"
+            }
+          },
+          "brand": {
+            "name": "Claro",
+            "__typename": "Brand"
+          },
+          "country": {
+            "name": "Nicaragua",
+            "__typename": "Country"
+          },
+          "regions": [
+            "Central America"
+          ],
+          "notes": "",
+          "subTypes": [
+            "Mobile Top Up"
+          ],
+          "notesShort": "",
+          "cost": {
+            "currency": {
+              "code": "USD",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 1869,
+            "fx": null,
+            "max": null,
+            "min": null,
+            "__typename": "Cost"
+          },
+          "price": {
+            "currency": {
+              "code": "USD",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 2100,
+            "fx": null,
+            "margin": 0.11,
+            "max": null,
+            "min": null,
+            "overrideType": "notApplied",
+            "suggestedFixed": 2100,
+            "suggestedFx": null,
+            "__typename": "Price"
+          },
+          "zend": {
+            "fx": null,
+            "currency": {
+              "code": "NIO",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 71925,
+            "max": null,
+            "min": null,
+            "__typename": "Zend"
+          },
+          "__typename": "Offer"
+        },
+        {
+          "offerId": "CLARO_NI_OPEN_0022",
+          "priceType": "fixed",
+          "type": "topup",
+          "enabled": true,
+          "details": {
+            "__typename": "TopupOfferDetails",
+            "durationDays": 0,
+            "data": {
+              "gb": 0,
+              "type": "limited",
+              "__typename": "PlanFeatureData"
+            },
+            "sms": {
+              "number": 0,
+              "type": "limited",
+              "__typename": "PlanFeatureSms"
+            },
+            "voice": {
+              "minutes": 0,
+              "type": "limited",
+              "__typename": "PlanFeatureVoice"
+            }
+          },
+          "brand": {
+            "name": "Claro",
+            "__typename": "Brand"
+          },
+          "country": {
+            "name": "Nicaragua",
+            "__typename": "Country"
+          },
+          "regions": [
+            "Central America"
+          ],
+          "notes": "",
+          "subTypes": [
+            "Mobile Top Up"
+          ],
+          "notesShort": "",
+          "cost": {
+            "currency": {
+              "code": "USD",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 1958,
+            "fx": null,
+            "max": null,
+            "min": null,
+            "__typename": "Cost"
+          },
+          "price": {
+            "currency": {
+              "code": "USD",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 2200,
+            "fx": null,
+            "margin": 0.11,
+            "max": null,
+            "min": null,
+            "overrideType": "notApplied",
+            "suggestedFixed": 2200,
+            "suggestedFx": null,
+            "__typename": "Price"
+          },
+          "zend": {
+            "fx": null,
+            "currency": {
+              "code": "NIO",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 75350,
             "max": null,
             "min": null,
             "__typename": "Zend"

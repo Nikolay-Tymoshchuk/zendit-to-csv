@@ -2,7 +2,6 @@ require('dotenv').config();
 const path = require('path');
 const fs = require('fs');
 const { parse } = require('csv-parse/sync');
-const { stringify } = require('csv-stringify/sync');
 const winston = require('winston');
 const axios = require('axios');
 const util = require('util');
@@ -216,7 +215,7 @@ const uniqueProductImages = new Set();
 
 // CSV header
 const csvHeader =
-  'productName,productCardImage,variantName,variantDescription,metaTitle,metaDescription,nameInCategoryPage,slug,countries,baseCategory,brand,productType,offerId,productKind,nameInAboutSection,countriesName';
+  'productName,productCardImage,variantName,variantDescription,metaTitle,metaDescription,nameInCategoryPage,slug,countries,baseCategory,brand,productType,offerId,productKind,nameInAboutSection';
 
 // Function to determine the type based on the ID prefix or Subtype
 function determineType(subtype) {
@@ -241,7 +240,7 @@ function isRegionalEsim(item) {
   }
 
   // Check if it's a regional product (World or Multi-Region)
-  return item.Country === 'World' || item.Country.includes('Region');
+  return item.Country.includes('Region');
 }
 
 // Function to fetch available countries for a regional eSIM product from Zendit API
@@ -310,6 +309,23 @@ async function fetchRegionalEsimData(offerId) {
   }
 }
 
+// Function to format product name for image file
+function formatProductNameForImage(productName) {
+  if (!productName) return '';
+
+  // 1. Split by "(" and take only the first part to remove text in parentheses
+  const nameParts = productName.split('(');
+  const nameWithoutParentheses = nameParts[0].trim();
+
+  // 2. Keep only letters and numbers, remove all special characters
+  // This will convert "Lyca Mobile" to "lycamobile"
+  const cleanedName = nameWithoutParentheses
+    .toLowerCase()
+    .replace(/[^a-z0-9]/gi, '');
+
+  return cleanedName + '.png';
+}
+
 // Helper function to create a CSV line for an item
 function createCsvLine(item, countryCode) {
   // Determine type based on item ID prefix
@@ -328,8 +344,7 @@ function createCsvLine(item, countryCode) {
   const productName = item.Brand || '';
 
   // 2. productCardImage
-  const productCardImage =
-    productName.toLowerCase().replace(/\s/g, '_').replace(/\./g, '_') + '.png';
+  const productCardImage = formatProductNameForImage(productName);
 
   // Add to unique images set
   uniqueProductImages.add(productCardImage);
@@ -447,9 +462,6 @@ function createCsvLine(item, countryCode) {
     nameInAboutSection += ' Gift Card';
   }
 
-  // 16. countriesName
-  const countriesName = item.Country || '';
-
   // Format all fields to handle special characters and ensure proper CSV formatting
   const formatForCsv = (value) => {
     if (value === null || value === undefined) return '';
@@ -483,12 +495,11 @@ function createCsvLine(item, countryCode) {
     formatForCsv(offerId),
     formatForCsv(productKind),
     formatForCsv(nameInAboutSection),
-    formatForCsv(countriesName),
   ].join(',');
 }
 
 // Function to create a CSV line specifically for regional products with multiple countries
-function createRegionalCsvLine(item, countriesStr, countriesNameStr) {
+function createRegionalCsvLine(item, countriesStr) {
   // Determine type based on item ID prefix
   const type = determineType(item.Subtype);
 
@@ -505,8 +516,7 @@ function createRegionalCsvLine(item, countriesStr, countriesNameStr) {
   const productName = item.Brand || '';
 
   // 2. productCardImage
-  const productCardImage =
-    productName.toLowerCase().replace(/\s/g, '_').replace(/\./g, '_') + '.png';
+  const productCardImage = formatProductNameForImage(productName);
 
   // Add to unique images set
   uniqueProductImages.add(productCardImage);
@@ -606,9 +616,6 @@ function createRegionalCsvLine(item, countriesStr, countriesNameStr) {
     nameInAboutSection += ' Gift Card';
   }
 
-  // 16. countriesName - use the combined string
-  const countriesName = countriesNameStr;
-
   // Format all fields to handle special characters and ensure proper CSV formatting
   const formatForCsv = (value) => {
     if (value === null || value === undefined) return '';
@@ -642,7 +649,6 @@ function createRegionalCsvLine(item, countriesStr, countriesNameStr) {
     formatForCsv(offerId),
     formatForCsv(productKind),
     formatForCsv(nameInAboutSection),
-    formatForCsv(countriesName),
   ].join(',');
 }
 
@@ -754,14 +760,9 @@ async function processCsvData(csvData) {
 
         // Create single CSV line with all country codes and names joined by commas
         const countriesStr = validCountryCodes.join(',');
-        const countriesNameStr = validCountryNames.join(',');
 
         // Create CSV line with all countries combined
-        const csvLine = createRegionalCsvLine(
-          item,
-          countriesStr,
-          countriesNameStr
-        );
+        const csvLine = createRegionalCsvLine(item, countriesStr);
         csvLines.push(csvLine);
 
         stats.processed++;
@@ -795,11 +796,11 @@ async function processCsvData(csvData) {
     stats.processed++;
   }
 
-  // Вычисляем время выполнения
+  // Calculate processing time
   const endTime = new Date();
-  const processingTime = (endTime - startTime) / 1000; // в секундах
+  const processingTime = (endTime - startTime) / 1000; // in seconds
 
-  // Логируем статистику
+  // Logging stats
   logger.info(`Processing statistics:`);
   logger.info(`- Total records found: ${stats.total}`);
   logger.info(`- Successfully processed: ${stats.processed}`);
@@ -819,7 +820,7 @@ async function processCsvData(csvData) {
   );
   logger.info(`- Processing time: ${processingTime.toFixed(2)} seconds`);
 
-  // Логируем отсутствующие страны
+  // Logging missing countries
   if (missingCountries.size > 0) {
     logger.warn(`Missing countries (${missingCountries.size}):`);
     Array.from(missingCountries)
@@ -828,7 +829,7 @@ async function processCsvData(csvData) {
         logger.warn(`- "${country}"`);
       });
 
-    // Сохраняем отсутствующие страны в отдельный файл для удобства
+    // Save missing countries to a file
     const missingCountriesContent = Array.from(missingCountries)
       .sort()
       .join('\n');

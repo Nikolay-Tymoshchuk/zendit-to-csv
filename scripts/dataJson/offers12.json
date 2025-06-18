@@ -1,161 +1,8 @@
 {
   "data": {
     "offers": {
-      "total": 21387,
+      "total": 21385,
       "list": [
-        {
-          "offerId": "ORANGECELLCOM_LR_DATA_002",
-          "priceType": "fixed",
-          "type": "topup",
-          "enabled": true,
-          "details": {
-            "__typename": "TopupOfferDetails",
-            "durationDays": 7,
-            "data": {
-              "gb": 6.5,
-              "type": "limited",
-              "__typename": "PlanFeatureData"
-            },
-            "sms": {
-              "number": 0,
-              "type": "limited",
-              "__typename": "PlanFeatureSms"
-            },
-            "voice": {
-              "minutes": 0,
-              "type": "limited",
-              "__typename": "PlanFeatureVoice"
-            }
-          },
-          "brand": {
-            "name": "Orange (formerly Cellcom)",
-            "__typename": "Brand"
-          },
-          "country": {
-            "name": "Liberia",
-            "__typename": "Country"
-          },
-          "regions": [
-            "Africa"
-          ],
-          "notes": "•Data: 6,500MB\n•Valid for 7 days\n•Transfer: not allowed",
-          "subTypes": [
-            "Mobile Data"
-          ],
-          "notesShort": "6.5GB Turbo (7d)",
-          "cost": {
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 487,
-            "fx": null,
-            "max": null,
-            "min": null,
-            "__typename": "Cost"
-          },
-          "price": {
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 575,
-            "fx": null,
-            "margin": 0.153,
-            "max": null,
-            "min": null,
-            "overrideType": "notApplied",
-            "suggestedFixed": 575,
-            "suggestedFx": null,
-            "__typename": "Price"
-          },
-          "zend": {
-            "fx": null,
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 500,
-            "max": null,
-            "min": null,
-            "__typename": "Zend"
-          },
-          "__typename": "Offer"
-        },
-        {
-          "offerId": "ORANGECELLCOM_LR_DATA_003",
-          "priceType": "fixed",
-          "type": "topup",
-          "enabled": true,
-          "details": {
-            "__typename": "TopupOfferDetails",
-            "durationDays": 30,
-            "data": {
-              "gb": 2100,
-              "type": "limited",
-              "__typename": "PlanFeatureData"
-            },
-            "sms": {
-              "number": 0,
-              "type": "unlimited",
-              "__typename": "PlanFeatureSms"
-            },
-            "voice": {
-              "minutes": 270,
-              "type": "limited",
-              "__typename": "PlanFeatureVoice"
-            }
-          },
-          "brand": {
-            "name": "Orange (formerly Cellcom)",
-            "__typename": "Brand"
-          },
-          "country": {
-            "name": "Liberia",
-            "__typename": "Country"
-          },
-          "regions": [
-            "Africa"
-          ],
-          "notes": "200 mins OnNet + 50 mins OffNet + 20 mins Inter  + UL SMS OnNet + 2100 MB",
-          "subTypes": [
-            "Mobile Data"
-          ],
-          "notesShort": "2.1GB Fusion (30d)",
-          "cost": {
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 512,
-            "fx": null,
-            "max": null,
-            "min": null,
-            "__typename": "Cost"
-          },
-          "price": {
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 575,
-            "fx": null,
-            "margin": 0.1096,
-            "max": null,
-            "min": null,
-            "overrideType": "notApplied",
-            "suggestedFixed": 575,
-            "suggestedFx": null,
-            "__typename": "Price"
-          },
-          "zend": null,
-          "__typename": "Offer"
-        },
         {
           "offerId": "ORANGECELLCOM_LR_DATA_004",
           "priceType": "fixed",
@@ -80357,6 +80204,170 @@
               "__typename": "Currency"
             },
             "fixed": 5000,
+            "max": null,
+            "min": null,
+            "__typename": "Zend"
+          },
+          "__typename": "Offer"
+        },
+        {
+          "offerId": "BIENESTAR_MX_001_BUNDLE",
+          "priceType": "fixed",
+          "type": "topup",
+          "enabled": true,
+          "details": {
+            "__typename": "TopupOfferDetails",
+            "durationDays": 7,
+            "data": {
+              "gb": 3,
+              "type": "limited",
+              "__typename": "PlanFeatureData"
+            },
+            "sms": {
+              "number": 0,
+              "type": "unlimited",
+              "__typename": "PlanFeatureSms"
+            },
+            "voice": {
+              "minutes": 0,
+              "type": "unlimited",
+              "__typename": "PlanFeatureVoice"
+            }
+          },
+          "brand": {
+            "name": "Bienestar",
+            "__typename": "Brand"
+          },
+          "country": {
+            "name": "Mexico",
+            "__typename": "Country"
+          },
+          "regions": [
+            "Central America"
+          ],
+          "notes": "Data 3 GB, Unlimited Minutes, Unlimited SMS, 7 Days",
+          "subTypes": [
+            "Mobile Bundle"
+          ],
+          "notesShort": "3GB bundle, 7 days",
+          "cost": {
+            "currency": {
+              "code": "USD",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 261,
+            "fx": null,
+            "max": null,
+            "min": null,
+            "__typename": "Cost"
+          },
+          "price": {
+            "currency": {
+              "code": "USD",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 300,
+            "fx": null,
+            "margin": 0.13,
+            "max": null,
+            "min": null,
+            "overrideType": "notApplied",
+            "suggestedFixed": 300,
+            "suggestedFx": null,
+            "__typename": "Price"
+          },
+          "zend": {
+            "fx": null,
+            "currency": {
+              "code": "MXN",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 5000,
+            "max": null,
+            "min": null,
+            "__typename": "Zend"
+          },
+          "__typename": "Offer"
+        },
+        {
+          "offerId": "BIENESTAR_MX_004_BUNDLE",
+          "priceType": "fixed",
+          "type": "topup",
+          "enabled": true,
+          "details": {
+            "__typename": "TopupOfferDetails",
+            "durationDays": 15,
+            "data": {
+              "gb": 6,
+              "type": "limited",
+              "__typename": "PlanFeatureData"
+            },
+            "sms": {
+              "number": 0,
+              "type": "unlimited",
+              "__typename": "PlanFeatureSms"
+            },
+            "voice": {
+              "minutes": 0,
+              "type": "unlimited",
+              "__typename": "PlanFeatureVoice"
+            }
+          },
+          "brand": {
+            "name": "Bienestar",
+            "__typename": "Brand"
+          },
+          "country": {
+            "name": "Mexico",
+            "__typename": "Country"
+          },
+          "regions": [
+            "Central America"
+          ],
+          "notes": "Data 6 GB, Unlimited Minutes, Unlimited SMS, 15 Days",
+          "subTypes": [
+            "Mobile Bundle"
+          ],
+          "notesShort": "6GB bundle, 15 days",
+          "cost": {
+            "currency": {
+              "code": "USD",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 523,
+            "fx": null,
+            "max": null,
+            "min": null,
+            "__typename": "Cost"
+          },
+          "price": {
+            "currency": {
+              "code": "USD",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 600,
+            "fx": null,
+            "margin": 0.1283,
+            "max": null,
+            "min": null,
+            "overrideType": "notApplied",
+            "suggestedFixed": 600,
+            "suggestedFx": null,
+            "__typename": "Price"
+          },
+          "zend": {
+            "fx": null,
+            "currency": {
+              "code": "MXN",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 10000,
             "max": null,
             "min": null,
             "__typename": "Zend"

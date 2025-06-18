@@ -1,150 +1,8 @@
 {
   "data": {
     "offers": {
-      "total": 21387,
+      "total": 21385,
       "list": [
-        {
-          "offerId": "RUBYTUESDAY_US_001",
-          "priceType": "fixed",
-          "type": "voucher",
-          "enabled": true,
-          "details": {
-            "__typename": "VoucherOfferDetails",
-            "requiredFields": [
-              "recipient.firstName",
-              "recipient.lastName"
-            ],
-            "deliveryType": "redemptionURL"
-          },
-          "brand": {
-            "name": "Ruby Tuesday",
-            "__typename": "Brand"
-          },
-          "country": {
-            "name": "United States",
-            "__typename": "Country"
-          },
-          "regions": [
-            "North America"
-          ],
-          "notes": "",
-          "subTypes": [
-            "Restaurant"
-          ],
-          "notesShort": "",
-          "cost": {
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 2438,
-            "fx": null,
-            "max": null,
-            "min": null,
-            "__typename": "Cost"
-          },
-          "price": {
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 2500,
-            "fx": null,
-            "margin": 0.0248,
-            "max": null,
-            "min": null,
-            "overrideType": "notApplied",
-            "suggestedFixed": 2500,
-            "suggestedFx": null,
-            "__typename": "Price"
-          },
-          "zend": {
-            "fx": null,
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 2500,
-            "max": null,
-            "min": null,
-            "__typename": "Zend"
-          },
-          "__typename": "Offer"
-        },
-        {
-          "offerId": "RUBYTUESDAY_US_002",
-          "priceType": "fixed",
-          "type": "voucher",
-          "enabled": true,
-          "details": {
-            "__typename": "VoucherOfferDetails",
-            "requiredFields": [
-              "recipient.firstName",
-              "recipient.lastName"
-            ],
-            "deliveryType": "redemptionURL"
-          },
-          "brand": {
-            "name": "Ruby Tuesday",
-            "__typename": "Brand"
-          },
-          "country": {
-            "name": "United States",
-            "__typename": "Country"
-          },
-          "regions": [
-            "North America"
-          ],
-          "notes": "",
-          "subTypes": [
-            "Restaurant"
-          ],
-          "notesShort": "",
-          "cost": {
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 4875,
-            "fx": null,
-            "max": null,
-            "min": null,
-            "__typename": "Cost"
-          },
-          "price": {
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 5000,
-            "fx": null,
-            "margin": 0.025,
-            "max": null,
-            "min": null,
-            "overrideType": "notApplied",
-            "suggestedFixed": 5000,
-            "suggestedFx": null,
-            "__typename": "Price"
-          },
-          "zend": {
-            "fx": null,
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 5000,
-            "max": null,
-            "min": null,
-            "__typename": "Zend"
-          },
-          "__typename": "Offer"
-        },
         {
           "offerId": "RUBYTUESDAY_US_003",
           "priceType": "fixed",
@@ -45401,7 +45259,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 45385,
+            "fixed": 44963,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -45483,7 +45341,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 54395,
+            "fixed": 53889,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -45565,7 +45423,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 72541,
+            "fixed": 71866,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -45647,7 +45505,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 18187,
+            "fixed": 18018,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -45729,7 +45587,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 25702,
+            "fixed": 25464,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -45811,7 +45669,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 31807,
+            "fixed": 31511,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -45893,7 +45751,7 @@
               "denomination": 100,
               "__typename": "Currency"
             },
-            "fixed": 36291,
+            "fixed": 35954,
             "max": null,
             "min": null,
             "__typename": "Zend"
@@ -79846,6 +79704,162 @@
             "min": null,
             "overrideType": "notApplied",
             "suggestedFixed": 13950,
+            "suggestedFx": null,
+            "__typename": "Price"
+          },
+          "zend": null,
+          "__typename": "Offer"
+        },
+        {
+          "offerId": "ESIM-VI-30D-5GB-NOROAM",
+          "priceType": "fixed",
+          "type": "esim",
+          "enabled": true,
+          "details": {
+            "__typename": "ESimOfferDetails",
+            "durationDays": 30,
+            "data": {
+              "gb": 5,
+              "type": "limited",
+              "__typename": "PlanFeatureData"
+            },
+            "sms": {
+              "number": 0,
+              "type": "limited",
+              "__typename": "PlanFeatureSms"
+            },
+            "voice": {
+              "minutes": 0,
+              "type": "limited",
+              "__typename": "PlanFeatureVoice"
+            },
+            "dataSpeeds": [
+              "4G",
+              "5G",
+              "2G",
+              "3G"
+            ],
+            "roamingDetails": []
+          },
+          "brand": {
+            "name": "eSIM",
+            "__typename": "Brand"
+          },
+          "country": {
+            "name": "Virgin Islands US",
+            "__typename": "Country"
+          },
+          "regions": [
+            "Caribbean"
+          ],
+          "notes": "eSIM Virgin Islands (U.S.) No Roaming",
+          "subTypes": [
+            "Standard"
+          ],
+          "notesShort": "eSIM 30 Days, 5 GB",
+          "cost": {
+            "currency": {
+              "code": "USD",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 1524,
+            "fx": null,
+            "max": null,
+            "min": null,
+            "__typename": "Cost"
+          },
+          "price": {
+            "currency": {
+              "code": "USD",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 1925,
+            "fx": null,
+            "margin": 0.2083,
+            "max": null,
+            "min": null,
+            "overrideType": "notApplied",
+            "suggestedFixed": 1925,
+            "suggestedFx": null,
+            "__typename": "Price"
+          },
+          "zend": null,
+          "__typename": "Offer"
+        },
+        {
+          "offerId": "ESIM-VI-30D-ULE-NOROAM",
+          "priceType": "fixed",
+          "type": "esim",
+          "enabled": true,
+          "details": {
+            "__typename": "ESimOfferDetails",
+            "durationDays": 30,
+            "data": {
+              "gb": 0,
+              "type": "unlimited",
+              "__typename": "PlanFeatureData"
+            },
+            "sms": {
+              "number": 0,
+              "type": "limited",
+              "__typename": "PlanFeatureSms"
+            },
+            "voice": {
+              "minutes": 0,
+              "type": "limited",
+              "__typename": "PlanFeatureVoice"
+            },
+            "dataSpeeds": [
+              "4G",
+              "5G",
+              "2G",
+              "3G"
+            ],
+            "roamingDetails": []
+          },
+          "brand": {
+            "name": "eSIM",
+            "__typename": "Brand"
+          },
+          "country": {
+            "name": "Virgin Islands US",
+            "__typename": "Country"
+          },
+          "regions": [
+            "Caribbean"
+          ],
+          "notes": "Unlimited Faster offers provide 1GB of data at unthrottled 5G (where available) speeds per 24 hours and thereafter unlimited data at 1.25mbs. The 24h period is calculated from the point the offer is first used. Each 24h period remaining the 1GB of unthrottled data will reset.",
+          "subTypes": [
+            "Faster"
+          ],
+          "notesShort": "1GB unthrottled Daily (1.25mbps throttled)",
+          "cost": {
+            "currency": {
+              "code": "USD",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 16045,
+            "fx": null,
+            "max": null,
+            "min": null,
+            "__typename": "Cost"
+          },
+          "price": {
+            "currency": {
+              "code": "USD",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 20075,
+            "fx": null,
+            "margin": 0.2007,
+            "max": null,
+            "min": null,
+            "overrideType": "notApplied",
+            "suggestedFixed": 20075,
             "suggestedFx": null,
             "__typename": "Price"
           },

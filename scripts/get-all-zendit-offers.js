@@ -78,25 +78,12 @@ const logger = winston.createLogger({
 // Headers for the API request
 const headers = {
   accept: '*/*',
-  'accept-language': 'uk,ru-RU;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6',
-  'cache-control': 'no-cache',
   'content-type': 'application/json',
-  pragma: 'no-cache',
-  priority: 'u=1, i',
-  'sec-ch-ua':
-    '"Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"',
-  'sec-ch-ua-mobile': '?0',
-  'sec-ch-ua-platform': '"macOS"',
-  'sec-fetch-dest': 'empty',
-  'sec-fetch-mode': 'cors',
-  'sec-fetch-site': 'same-site',
-  Referer: 'https://console.zendit.io/',
-  'Referrer-Policy': 'strict-origin-when-cross-origin',
 };
 
 // Cookies for authentication
 const cookies =
-  '_ga=GA1.1.1479908863.1732524881; hubspotutk=93cd6f14f95eed15f930a0b153fed7c2; ajs_anonymous_id=%2259ac0c24-8e86-4068-b941-23075937b008%22; __hssrc=1; __hstc=259197717.93cd6f14f95eed15f930a0b153fed7c2.1732524881131.1749639714105.1749644083490.28; csrf_token_354a484577109d0f82ac637adeb157082bc4c7188137525d0ac3acd796a3a92c=kan2vUqDBbbWtLV52mJdEd6OCpTQNxoIUQXo16DOGXE=; _gcl_au=1.1.348742045.1749119544.1140989966.1749646604.1749646604; fuji_session=MTc0OTY0NjYwN3w4V0lLYnNPd094MVRzTWVrbl91TVlvSmxhb3JvRmpReGxjLTJNUnI4cGkyUDNoUUlGaUxnNGpqQjlQZk5kNW84dUNIb25IN244bGRRVTdiNHFXc2ptXzEzOFVPX0g2MGxVWE1kcDl5eHl2X1kydWFINF9SRlV2aUZXU1IzcGdubER4NkZHYmVMNmpPVjZIUkVha05zdkV5ODNIVEVKVGFmUFdScmhCaEJCMGtVUFRmamJzQkNnT1RfMkRFMDVHeGFfR1BweXJNZC13WEp4YlpWbE94ZUxWbF9QaVVWc0RZWEtFdmlUNUZwS0hMa0JzRVNUSjc3MTk4V0w0Vk5rLW5nTzZnR1VHQUN3Y2l5Unh0SmZuQnJ8QnNl-y86d5bgE-pFAA-spulnmy_tqIHuw4ABo_bjvf0=; _ga_DKTMF05D9H=GS2.1.s1749646604$o40$g1$t1749646760$j46$l0$h0; SL_C_23361dd035530_SID={"0c492169d898b7e2eee8afad115a460c106c6655":{"sessionId":"rAi2E7cVorpiuKkCR3CiB","visitorId":"h-6HauHEFMjlAVLdLXXJc"},"a0eae5e9aa3e741cc22eb6b6d101041001d6eb3d":{"sessionId":"Tk1-T1IFzbWOKesGIBcCy","visitorId":"5h6hqr5sW8L300tpx2OsY"}}';
+  'fuji_session=MTc0OTcwNzExOHwzeXI4clNlZEFHTWkxWkR4MFVYdmpwVEw4MEJkVVVIV1hFcmdHRE1YTTB0UnVFM1lmeXotck01NDBSYUFWc0IteFJZYTJVWThCNTNOT0FVU0tyWHZHaHl0ZE51emltZzlTc0s5a0Njdm5OV2Z1LTlCYmhXbTFWbkZQakJ6N3JXWEhYMlhyNDBEdTUtWFhUcU5oVDR3TExDQmRVVDMwMUh4azltdXJBNFMxT0xHTGhNZkF6NnUtYmc5WXlTc0dHVWtacUJwXzhJYzRTbklybXh5ejVDbVZKSW1hVUxmOVB5Q0RTVk9jOFBOQlVZMmNDekN0Mm5Dc1ltUmd5aVhhUjBTVUUxcHhXZ2xRRDJGLXpJbk5FQlZ88ENWPc77dn-k0DMyn_5uakGeaN6RgcdiRxmsI6_ndSU=';
 
 // Main execution function
 async function main() {

@@ -1,172 +1,8 @@
 {
   "data": {
     "offers": {
-      "total": 21387,
+      "total": 21385,
       "list": [
-        {
-          "offerId": "LIBERTY_PR_15",
-          "priceType": "fixed",
-          "type": "topup",
-          "enabled": true,
-          "details": {
-            "__typename": "TopupOfferDetails",
-            "durationDays": 0,
-            "data": {
-              "gb": 0,
-              "type": "limited",
-              "__typename": "PlanFeatureData"
-            },
-            "sms": {
-              "number": 0,
-              "type": "limited",
-              "__typename": "PlanFeatureSms"
-            },
-            "voice": {
-              "minutes": 0,
-              "type": "limited",
-              "__typename": "PlanFeatureVoice"
-            }
-          },
-          "brand": {
-            "name": "Liberty (formerly AT&T)",
-            "__typename": "Brand"
-          },
-          "country": {
-            "name": "Puerto Rico",
-            "__typename": "Country"
-          },
-          "regions": [
-            "Caribbean"
-          ],
-          "notes": "",
-          "subTypes": [
-            "Mobile Top Up"
-          ],
-          "notesShort": "",
-          "cost": {
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 1435,
-            "fx": null,
-            "max": null,
-            "min": null,
-            "__typename": "Cost"
-          },
-          "price": {
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 1500,
-            "fx": null,
-            "margin": 0.0433,
-            "max": null,
-            "min": null,
-            "overrideType": "notApplied",
-            "suggestedFixed": 1500,
-            "suggestedFx": null,
-            "__typename": "Price"
-          },
-          "zend": {
-            "fx": null,
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 1500,
-            "max": null,
-            "min": null,
-            "__typename": "Zend"
-          },
-          "__typename": "Offer"
-        },
-        {
-          "offerId": "LIBERTY_PR_20",
-          "priceType": "fixed",
-          "type": "topup",
-          "enabled": true,
-          "details": {
-            "__typename": "TopupOfferDetails",
-            "durationDays": 0,
-            "data": {
-              "gb": 0,
-              "type": "limited",
-              "__typename": "PlanFeatureData"
-            },
-            "sms": {
-              "number": 0,
-              "type": "limited",
-              "__typename": "PlanFeatureSms"
-            },
-            "voice": {
-              "minutes": 0,
-              "type": "limited",
-              "__typename": "PlanFeatureVoice"
-            }
-          },
-          "brand": {
-            "name": "Liberty (formerly AT&T)",
-            "__typename": "Brand"
-          },
-          "country": {
-            "name": "Puerto Rico",
-            "__typename": "Country"
-          },
-          "regions": [
-            "Caribbean"
-          ],
-          "notes": "",
-          "subTypes": [
-            "Mobile Top Up"
-          ],
-          "notesShort": "",
-          "cost": {
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 1914,
-            "fx": null,
-            "max": null,
-            "min": null,
-            "__typename": "Cost"
-          },
-          "price": {
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 2000,
-            "fx": null,
-            "margin": 0.043,
-            "max": null,
-            "min": null,
-            "overrideType": "notApplied",
-            "suggestedFixed": 2000,
-            "suggestedFx": null,
-            "__typename": "Price"
-          },
-          "zend": {
-            "fx": null,
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 2000,
-            "max": null,
-            "min": null,
-            "__typename": "Zend"
-          },
-          "__typename": "Offer"
-        },
         {
           "offerId": "LIBERTY_PR_25",
           "priceType": "fixed",
@@ -79056,6 +78892,159 @@
             "min": null,
             "__typename": "Zend"
           },
+          "__typename": "Offer"
+        },
+        {
+          "offerId": "AFRICELL_SL_099",
+          "priceType": "fixed",
+          "type": "topup",
+          "enabled": true,
+          "details": {
+            "__typename": "TopupOfferDetails",
+            "durationDays": 0,
+            "data": {
+              "gb": 0,
+              "type": "limited",
+              "__typename": "PlanFeatureData"
+            },
+            "sms": {
+              "number": 0,
+              "type": "limited",
+              "__typename": "PlanFeatureSms"
+            },
+            "voice": {
+              "minutes": 0,
+              "type": "limited",
+              "__typename": "PlanFeatureVoice"
+            }
+          },
+          "brand": {
+            "name": "Africell",
+            "__typename": "Brand"
+          },
+          "country": {
+            "name": "Sierra Leone",
+            "__typename": "Country"
+          },
+          "regions": [
+            "Africa"
+          ],
+          "notes": "",
+          "subTypes": [
+            "Mobile Top Up"
+          ],
+          "notesShort": "",
+          "cost": {
+            "currency": {
+              "code": "USD",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 4852,
+            "fx": null,
+            "max": null,
+            "min": null,
+            "__typename": "Cost"
+          },
+          "price": {
+            "currency": {
+              "code": "USD",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 5400,
+            "fx": null,
+            "margin": 0.1015,
+            "max": null,
+            "min": null,
+            "overrideType": "notApplied",
+            "suggestedFixed": 5400,
+            "suggestedFx": null,
+            "__typename": "Price"
+          },
+          "zend": {
+            "fx": null,
+            "currency": {
+              "code": "SLL",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 100000,
+            "max": null,
+            "min": null,
+            "__typename": "Zend"
+          },
+          "__typename": "Offer"
+        },
+        {
+          "offerId": "AFRICELL_SL_11_DATA",
+          "priceType": "fixed",
+          "type": "topup",
+          "enabled": true,
+          "details": {
+            "__typename": "TopupOfferDetails",
+            "durationDays": 30,
+            "data": {
+              "gb": 6,
+              "type": "limited",
+              "__typename": "PlanFeatureData"
+            },
+            "sms": {
+              "number": 0,
+              "type": "limited",
+              "__typename": "PlanFeatureSms"
+            },
+            "voice": {
+              "minutes": 0,
+              "type": "limited",
+              "__typename": "PlanFeatureVoice"
+            }
+          },
+          "brand": {
+            "name": "Africell",
+            "__typename": "Brand"
+          },
+          "country": {
+            "name": "Sierra Leone",
+            "__typename": "Country"
+          },
+          "regions": [
+            "Africa"
+          ],
+          "notes": "",
+          "subTypes": [
+            "Mobile Data"
+          ],
+          "notesShort": "6GB (30d)",
+          "cost": {
+            "currency": {
+              "code": "USD",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 764,
+            "fx": null,
+            "max": null,
+            "min": null,
+            "__typename": "Cost"
+          },
+          "price": {
+            "currency": {
+              "code": "USD",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 850,
+            "fx": null,
+            "margin": 0.1012,
+            "max": null,
+            "min": null,
+            "overrideType": "notApplied",
+            "suggestedFixed": 850,
+            "suggestedFx": null,
+            "__typename": "Price"
+          },
+          "zend": null,
           "__typename": "Offer"
         }
       ],

@@ -244,6 +244,23 @@ function isRegionalEsim(offer) {
   return false;
 }
 
+// Function to format product name for image file
+function formatProductNameForImage(productName) {
+  if (!productName) return '';
+
+  // 1. Split by "(" and take only the first part to remove text in parentheses
+  const nameParts = productName.split('(');
+  const nameWithoutParentheses = nameParts[0].trim();
+
+  // 2. Keep only letters and numbers, remove all special characters
+  // This will convert "Lyca Mobile" to "lycamobile"
+  const cleanedName = nameWithoutParentheses
+    .toLowerCase()
+    .replace(/[^a-z0-9]/gi, '');
+
+  return cleanedName + '.png';
+}
+
 // Function to extract country codes from eSIM roaming details
 function extractCountryCodesFromEsim(offer) {
   // Method 1: If the eSIM offer has a direct country property, use that and don't check roamingDetails
@@ -315,8 +332,7 @@ function createCsvLine(offer, countryCode) {
   const productName = offer.brand ? offer.brand.name : '';
 
   // 2. productCardImage
-  const productCardImage =
-    productName.toLowerCase().replace(/\s/g, '_').replace(/\./g, '_') + '.png';
+  const productCardImage = formatProductNameForImage(productName);
 
   // Add to unique images set
   uniqueProductImages.add(productCardImage);
@@ -505,8 +521,7 @@ function createRegionalCsvLine(offer, countriesStr, countriesNameStr) {
   const productName = offer.brand ? offer.brand.name : '';
 
   // 2. productCardImage
-  const productCardImage =
-    productName.toLowerCase().replace(/\s/g, '_').replace(/\./g, '_') + '.png';
+  const productCardImage = formatProductNameForImage(productName);
 
   // Add to unique images set
   uniqueProductImages.add(productCardImage);

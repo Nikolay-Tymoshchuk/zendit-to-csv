@@ -1,79 +1,8 @@
 {
   "data": {
     "offers": {
-      "total": 21387,
+      "total": 21385,
       "list": [
-        {
-          "offerId": "RITUALS_ES_100",
-          "priceType": "fixed",
-          "type": "voucher",
-          "enabled": true,
-          "details": {
-            "__typename": "VoucherOfferDetails",
-            "requiredFields": [
-              "recipient.firstName",
-              "recipient.lastName"
-            ],
-            "deliveryType": "redemptionURL"
-          },
-          "brand": {
-            "name": "Rituals",
-            "__typename": "Brand"
-          },
-          "country": {
-            "name": "Spain",
-            "__typename": "Country"
-          },
-          "regions": [
-            "Western Europe"
-          ],
-          "notes": "",
-          "subTypes": [
-            "Health & Beauty"
-          ],
-          "notesShort": "",
-          "cost": {
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 10976,
-            "fx": null,
-            "max": null,
-            "min": null,
-            "__typename": "Cost"
-          },
-          "price": {
-            "currency": {
-              "code": "USD",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 11200,
-            "fx": null,
-            "margin": 0.02,
-            "max": null,
-            "min": null,
-            "overrideType": "notApplied",
-            "suggestedFixed": 11200,
-            "suggestedFx": null,
-            "__typename": "Price"
-          },
-          "zend": {
-            "fx": null,
-            "currency": {
-              "code": "EUR",
-              "denomination": 100,
-              "__typename": "Currency"
-            },
-            "fixed": 10000,
-            "max": null,
-            "min": null,
-            "__typename": "Zend"
-          },
-          "__typename": "Offer"
-        },
         {
           "offerId": "RITUALS_ES_150",
           "priceType": "fixed",
@@ -75683,6 +75612,77 @@
               "__typename": "Currency"
             },
             "fixed": 2500,
+            "max": null,
+            "min": null,
+            "__typename": "Zend"
+          },
+          "__typename": "Offer"
+        },
+        {
+          "offerId": "PIZZAHUT_UK_50",
+          "priceType": "fixed",
+          "type": "voucher",
+          "enabled": true,
+          "details": {
+            "__typename": "VoucherOfferDetails",
+            "requiredFields": [
+              "recipient.firstName",
+              "recipient.lastName"
+            ],
+            "deliveryType": "redemptionURL"
+          },
+          "brand": {
+            "name": "Pizza Hut",
+            "__typename": "Brand"
+          },
+          "country": {
+            "name": "United Kingdom",
+            "__typename": "Country"
+          },
+          "regions": [
+            "Western Europe"
+          ],
+          "notes": "",
+          "subTypes": [
+            "Restaurant"
+          ],
+          "notesShort": "",
+          "cost": {
+            "currency": {
+              "code": "USD",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 6094,
+            "fx": null,
+            "max": null,
+            "min": null,
+            "__typename": "Cost"
+          },
+          "price": {
+            "currency": {
+              "code": "USD",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 6250,
+            "fx": null,
+            "margin": 0.025,
+            "max": null,
+            "min": null,
+            "overrideType": "notApplied",
+            "suggestedFixed": 6250,
+            "suggestedFx": null,
+            "__typename": "Price"
+          },
+          "zend": {
+            "fx": null,
+            "currency": {
+              "code": "GBP",
+              "denomination": 100,
+              "__typename": "Currency"
+            },
+            "fixed": 5000,
             "max": null,
             "min": null,
             "__typename": "Zend"
